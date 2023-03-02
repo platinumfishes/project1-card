@@ -1,28 +1,55 @@
+
 <!doctype html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="Description" content="Put your description here.">
-  <base href="/">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-  <style>
     html,
     body {
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
+      font-family: "Anton", sans-serif;
       background-color: #ededed;
     }
   </style>
-  <title>project1-card</title>
-</head>
 
-<body>
-  <project1-card></project1-card>
+<html lang="en">
+
+
+    <videogame-card accent-color="cyan"><slot>
+        <ul><li>This is a screenshot from a 3D rendered animation posted to Youtube by Valve Corporation to promote the video-game Team Fortress 2.</li>
+        <li>The video is called 'Meet the Pyro'</li></ul></slot>
+    </videogame-card>
+
+    <videogame-card top="Tf2 best game">
+        <ul><li>I'm a creep, i'm a weirdo</li>
+        <li>What the hell am I doing here, I don't belong here</li></ul>
+    </videogame-card>
+
+    <videogame-card picture="https://www.realmofthemadgod.com/assets/img/rotmg_logo.png">      
+        <ul><li>This is a screenshot from a 3D rendered animation posted to Youtube by Valve Corporation to promote the video-game Team Fortress 2.</li>
+        <li>The video is called 'Meet the Pyro'</li></ul>
+    </videogame-card>
+    
+    <videogame-card name="Overwatch 2" accent-color="orange">      
+        <ul><li>I am actually masters in Ow2 on tank and support that's kinda poggers</li></ul>
+    </videogame-card>
+
+    <videogame-card details="CLICK ME PLEASE">
+        <ul><li>Booble gooble smoogle</li></ul>
+    </videogame-card>
+
+    <band-card light-background><div>Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div Div</div></band-card>
+    
+    <band-card title="Memes haha"></band-card>
+
+    <band-card title="Squonk" imageLink="https://64.media.tumblr.com/c1a3936324916293dfc0f0699b76eeed/tumblr_inline_oigj15tevk1rkapbx_1280.jpg"><slot>Squonk moment any squonkers in the chat</slot></band-card>
+    
+    <band-card showInformation="I hate React"></band-card>
+    
+    <band-card><div>Shoutout Emo night</div></band-card>
 
   <script type="module" src="./src/project1-card.js"></script>
-</body>
+
 
 </html>
