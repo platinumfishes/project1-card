@@ -15,8 +15,8 @@
     "start": "web-dev-server"
   },
   "dependencies": {
-    "@prettywebcomponents/band-card": "^0.0.0",
-    "@prettywebcomponents/videogame-card2": "^0.0.0",
+    "@prettywebcomponents/band-card": "^0.0.3",
+    "@prettywebcomponents/videogame-card2": "^0.0.3",
     "lit": "^2.0.2"
   },
   "devDependencies": {

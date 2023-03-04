@@ -3,8 +3,6 @@ import "@lrnwebcomponents/meme-maker/meme-maker.js";
 import "@prettywebcomponents/band-card/src/band-card.js";
 import "@prettywebcomponents/videogame-card2/src/videogame-card.js";
 
-
-
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
 export class Project1Card extends LitElement {
